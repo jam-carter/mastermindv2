@@ -1,7 +1,7 @@
 import random
 
 def generate_code():
-    colors = ['Red', 'G', 'B', 'Y', 'P', 'O']
+    colors = ['RED', 'GREEN', 'BLUE', 'YELLOW', 'PURPLE', 'ORANGE']
     return [random.choice(colors) for _ in range(4)]
 
 def get_feedback(guess, code):
